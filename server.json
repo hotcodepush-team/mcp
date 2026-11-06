@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.hotcodepush/mcp",
+  "title": "HotCodePush",
+  "description": "Manage over-the-air (OTA) updates for React Native, Expo, Capacitor and Cordova apps.",
+  "repository": {
+    "url": "https://github.com/hotcodepush-team/mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "websiteUrl": "https://hotcodepush.com/docs/ai/mcp",
+  "icons": [
+    {
+      "src": "https://hotcodepush.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hotcodepush.com/mcp"
+    }
+  ]
+}
